@@ -1,0 +1,196 @@
+
+/*Set Defaults*/
+*{
+	font-family: 'Open Sans', sans-serif;
+}
+
+html{
+	height: 100%;
+}
+
+body{
+	height: 100%;
+}
+
+#background{
+	background: rgba(25, 88, 68, 1.0);  /*Dark Blue-Green*/
+	/*background: rgba(25.5, 41.2, 88.2, 1.0);  /*Dark Blue - alternative background*/
+}
+
+#all{
+	min-height: 100%;
+	position: relative;
+	background: rgba(255, 255, 255, 1.0);  /*White*/
+	background-image: url('wordcloud_map.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: contain;
+}
+
+
+/*Header*/
+
+#head{
+	background: rgba(255, 255, 255, 0.9);  /*White*/
+}
+
+#logopic{
+	float: left;
+}
+
+#homepic{
+	padding-top: 10px;
+}
+
+#logotext{
+	padding-top: 28px;
+	padding-left: 8px;
+	float: left;
+}
+
+#hometext{
+	font-weight: bold;
+	font-size: 1.3em;
+	text-decoration: none;
+	color: rgba(0, 0, 0, 1.0);  /*Black*/
+}
+
+#topnav a{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 10px;
+	margin-right: 10px;
+	float: right;
+}
+
+
+/*Body*/
+
+.researcher_pic{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 100%;
+	margin-bottom: 5%;
+}
+
+.researcher_name{
+	margin-top: 10px;
+	margin-bottom: 5%;
+}
+
+.researcher_name a{
+	font-size: 1.3em;
+	text-decoration: none;
+	color: rgba(0, 0, 0, 1.0);  /*Black*/
+}
+
+.article{
+	background: rgba(255, 255, 255, 0.9);  /*White*/
+	padding: 30px;
+}
+
+.article p{
+	margin-bottom: 20px;
+}
+
+.article h1{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.article h2{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.article h3{
+	margin-top: 10px;
+	padding-left: 32px;
+}
+
+.article h4{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.article h5{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.article h6{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.article ol{
+	margin-left: 20px;
+}
+
+.article ul{
+	margin-left: 20px;
+}
+
+h1.headclass{
+	text-align: center;
+	margin-top: 50px;
+}
+
+h2.headclass{
+	margin-top: 50px;
+	margin-bottom: 35px;
+}
+
+h2.subheadclass{
+	text-align: center;
+	margin-bottom: 45px;
+}
+
+
+/*Institutions*/
+
+#institutions{
+	padding-top: 869px;  /*must equal height of the background image (specified in #all above)*/
+	padding-bottom: 88px;  /*must equal height of the footer (#foot below)*/
+	background: rgba(255, 255, 255, 0.0);  /*White*/
+}
+
+.acknowledgements{
+	background: rgba(255, 255, 255, 0.9);  /*White*/
+	padding: 30px;
+}
+
+.institute{
+	max-width: 234px;
+	min-width: 234px;
+}
+
+
+/*Footer*/
+
+#foot{
+	height: 88px;
+	width: 100%;
+	background: rgba(238, 238, 238, 1.0);  /*Light Grey*/
+	position: absolute;
+	left: 12px;
+	bottom: 0px;
+}
+
+#foot pt{
+	text-align: center;
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin: 0px;
+}
+
+#foot pb{
+	text-align: center;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin: 0px;
+}
